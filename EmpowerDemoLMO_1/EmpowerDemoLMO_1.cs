@@ -72,7 +72,7 @@ public class Script
 		var allElements = mySystem.GetElements();
 		foreach (var element in allElements)
 		{
-			engine.GenerateInformation("Element name = " + element.Name);
+			engine.GenerateInformation("Element name =  " + element.Name);
 		}
 	}
 }
